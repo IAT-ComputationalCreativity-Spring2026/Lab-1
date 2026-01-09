@@ -48,3 +48,23 @@ conda create -n iat460lab1 python=3.12
 ### Option 2
 
 The provided notebook is accessible in Google Colab and requires no setup ([link](https://colab.research.google.com/github/IAT-ComputationalCreativity-Spring2026/Lab-1/blob/main/lab.ipynb))
+
+---
+
+## Working with assets
+
+If you're comfortable with python libraries, here is a list of suggestions for you to potentially check out:
+
+- 2D Images:        [PIL (Pillow)](https://pillow.readthedocs.io/en/stable/index.html)
+- Symbolic Music:   [pretty_midi](https://craffel.github.io/pretty-midi/)
+- Audio:            [librosa](https://librosa.org/doc/latest/index.html)
+- Video:            [MoviePy](https://zulko.github.io/moviepy/)
+- Text:             [NLTK](https://www.nltk.org/)
+- 3D Mesh:          [PyMesh](https://pymesh.readthedocs.io/en/latest/)
+- Compute Shaders:  [Python Arcade](https://api.arcade.academy/en/stable/tutorials/compute_shader/index.html)
+
+Some more general multi-media libraries
+
+- [pygame](https://www.pygame.org/wiki/about): More established than aformentioned Python Arcade but no custom shaders
+- [OpenCV](https://opencv.org/): Useful for images, video, etc. May be overkill in simple cases
+- [torchvision](https://pytorch.org/vision/stable/index.html), [torchaudio](https://pytorch.org/audio/stable/index.html): Mostly for integrating with PyTorch models but may contain some useful GPU-accelerated functionality
